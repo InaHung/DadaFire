@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3A2A7E62-A581-FC5A-84BA-B19817C03BD1}</ProjectGuid>
+    <ProjectGuid>{D0F784E1-D82C-A0B9-31FC-7CE298183F8A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -143,7 +143,6 @@
     <Compile Include="Assets\Script\Proxy\TimerProxy.cs" />
     <Compile Include="Assets\Script\Dart.cs" />
     <Compile Include="Assets\Script\View\DaimondView.cs" />
-    <Compile Include="Assets\eeee.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -943,7 +942,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A92CDFB1-D459-2D9F-7B73-F2B3E4249E82}</Project>
+      <Project>{694001AE-4C6D-4314-CBF9-93FBF4D8E657}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
