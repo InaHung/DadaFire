@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72b2325843903ae4fb8ce645b778c21d, type: 3}
+  m_Name: lazerSetting
+  m_EditorClassIdentifier: 
+  lazorLevelSettings:
+  - level: 1
+    damage: 2
+    animatoinName: origin
+  - level: 2
+    damage: 4
+    animatoinName: origin
+  - level: 3
+    damage: 4
+    animatoinName: Bigger
+  - level: 4
+    damage: 8
+    animatoinName: Bigger
+  - level: 5
+    damage: 16
+    animatoinName: Bigger
+  - level: 6
+    damage: 20
+    animatoinName: Bigger

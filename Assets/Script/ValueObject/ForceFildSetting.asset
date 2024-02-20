@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb884949e7811945b0de1a93938eb76, type: 3}
+  m_Name: ForceFildSetting
+  m_EditorClassIdentifier: 
+  fieldLevelSettings:
+  - level: 1
+    damage: 2
+    areaScale: 1
+  - level: 2
+    damage: 3
+    areaScale: 1.2
+  - level: 3
+    damage: 4
+    areaScale: 1.4
+  - level: 4
+    damage: 5
+    areaScale: 1.5
+  - level: 5
+    damage: 6
+    areaScale: 1.8
+  - level: 6
+    damage: 9
+    areaScale: 2

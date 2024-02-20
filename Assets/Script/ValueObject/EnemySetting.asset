@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e80bf7138dcc2e499679e3c663cc270, type: 3}
+  m_Name: EnemySetting
+  m_EditorClassIdentifier: 
+  enemySpawmSettings:
+  - enemyType: 1
+    timer: 0
+    randomSpawntime: {x: 5, y: 10}
+    spawnCount: 5
+  - enemyType: 2
+    timer: 60
+    randomSpawntime: {x: 10, y: 20}
+    spawnCount: 10
+  - enemyType: 0
+    timer: 90
+    randomSpawntime: {x: 1, y: 4}
+    spawnCount: 15
