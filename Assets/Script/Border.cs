@@ -24,6 +24,7 @@ public class Border : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         player = null;
+        //123
     }
 
 
