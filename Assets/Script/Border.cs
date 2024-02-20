@@ -25,4 +25,7 @@ public class Border : MonoBehaviour
     {
         player = null;
     }
+
+
+
 }
