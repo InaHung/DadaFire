@@ -41,4 +41,8 @@ public class DaimondMediator : IMediator
     {
         daimondProxy.StopTween(false);
     }*/
+    public void ResetProxy()
+    {
+        daimondProxy.Reset();
+    }
 }

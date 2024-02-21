@@ -18,6 +18,7 @@ public class DaimondView : MonoBehaviour, IView
         daimondSpawner.onDaimondCreate += SetDaimond;
         daimondSpawner.onEatDaimond += DaimondDespose;
         CreateDaimondPool();
+        mediator.ResetProxy();
     }
     private void Update()
     {

@@ -31,7 +31,7 @@ public class EnemyView : MonoBehaviour, IView
         bossSpawner.onBossDead += OnBossDead;
         bossSpawner.onInjured = OnEnemyDamage;
         CreateEnemyPool();
-
+        mediator.ResetProxy();
     }
 
     private void CreateEnemyPool()
@@ -86,6 +86,10 @@ public class EnemyView : MonoBehaviour, IView
     public void OnBossDead(Enemy boss)
     {
         mediator.SetDeadBoss(boss);
+        if(boss.enemyType==EnemyType.finalBoss)
+        {
+            mediator.OnFinalBossDead();
+        }
     }
     public void OnEnemyDamage(Vector3 textPosition,float damage)
     {
@@ -148,6 +152,6 @@ public class EnemyView : MonoBehaviour, IView
     {
         bossSpawner.TweenControl(false);
     }
-
+    
 }
 

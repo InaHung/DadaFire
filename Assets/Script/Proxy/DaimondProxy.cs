@@ -46,21 +46,8 @@ public class DaimondProxy : IProxy
         daimondType1 = daimondType;
         Broadcast(EnemyEvent.ON_GET_ENEMY_INFO);
     }
-   /* public void StopTween(bool stop)
+   public void Reset()
     {
-        if(stop)
-        {
-            foreach (var daimond in currentDaimond)
-            {
-                daimond.moveTween.Pause();
-        }
-        }
-        else
-            foreach (var daimond in currentDaimond)
-            {
-                daimond.moveTween.Play();
-            }
-
-    }*/
-
+        currentDaimond.Clear();
+    }
 }

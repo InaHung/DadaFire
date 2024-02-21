@@ -14,11 +14,9 @@ public class SkillView : MonoBehaviour, IView
     {
         Communicator.Connect(this);
         mediator.Register(this);
+        mediator.ResetProxy();
     }
-    private void Update()
-    {
-        
-    }
+    
     public void ShowWeaponChoice(SelectSkills[] selects)
     {
         

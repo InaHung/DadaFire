@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using System;
 
 public class SecondBoss : Boss
 {
@@ -12,6 +13,7 @@ public class SecondBoss : Boss
     public float attackTime;
     public float firstAttackTime;
     public Vector2 range;
+   
     public override void StartAction()
     {
         base.StartAction();
@@ -28,8 +30,8 @@ public class SecondBoss : Boss
         {
             curFireball = null;
         });
-        float x = Random.Range(-range.x, range.x);
-        float y = Random.Range(-range.y, range.y);
+        float x = UnityEngine.Random.Range(-range.x, range.x);
+        float y = UnityEngine.Random.Range(-range.y, range.y);
         ball.transform.localPosition = new Vector2(x, y);
         attackTween = DOVirtual.DelayedCall(attackTime, () =>
         {
@@ -64,6 +66,7 @@ public class SecondBoss : Boss
             onDisposeEnemy = null;
             Dispose();
             attackTween.Kill();
+            
         }
 
     }

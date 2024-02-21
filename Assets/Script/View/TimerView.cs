@@ -14,6 +14,7 @@ public class TimerView : MonoBehaviour,IView
     {
         Communicator.Connect(this);
         mediator.Register(this);
+        mediator.SetCurrentTime(0);
     }
     private void Update()
     {

@@ -12,7 +12,10 @@ public class SkillMediator : IMediator
         skillView = (SkillView)view;
     }
 
-   
+   public void ResetProxy()
+    {
+        skillProxy.Reset();
+    }
     
 
     [Listener(SkillEvent.ON_RANDOM_SKILL_COMPLETE)]

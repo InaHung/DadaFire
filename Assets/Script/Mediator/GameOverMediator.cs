@@ -10,6 +10,7 @@ public class GameOverMediator : IMediator
         gameOverView = (GameOverView)view;
     }
     [Listener(PlayerEvent.ON_PLAYER_DEAD)]
+    [Listener(BossEvent.ON_FINAL_BOSS_DEAD)]
     private void GameOver()
     {
         gameOverView.GameOver();

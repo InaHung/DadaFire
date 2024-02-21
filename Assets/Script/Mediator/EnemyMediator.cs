@@ -81,5 +81,13 @@ public class EnemyMediator : IMediator
     {
         enemyView.BossStart();
     }
+    public void OnFinalBossDead()
+    {
+        Broadcast(BossEvent.ON_FINAL_BOSS_DEAD);
+    }
+    public void ResetProxy()
+    {
+        enemyProxy.Reset();
+    }
 
 }

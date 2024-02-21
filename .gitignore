@@ -1,6 +1,7 @@
 Library/
 Temp/
 Logs/
-Assembly-CSharp.csproj
 .vs/
 UserSettings/
+obj/
+Assembly-CSharp.csproj

@@ -14,7 +14,7 @@ public class ScoreProxy : IProxy
     {
         curLevel = expSetting.singleEXPSettings[0].level;
         maxScore = expSetting.singleEXPSettings[0].maxScore;
-
+        currentScore = 0;
     }
     public void AddScore(int score)
     {
@@ -31,5 +31,5 @@ public class ScoreProxy : IProxy
         }
         Broadcast(ScoreEvent.ON_SCORE_SETTING_COMPLETE);
     }
-
+    
 }

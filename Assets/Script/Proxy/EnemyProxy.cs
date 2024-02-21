@@ -89,6 +89,10 @@ public class EnemyProxy : IProxy
         damageText= damage;
         Broadcast(EnemyTextEvent.ON_SHOW_ENEMY_DAMAGE);
     }
+    public void Reset()
+    {
+        currentEnemies.Clear();
+    }
 
 
 }

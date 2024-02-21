@@ -105,6 +105,8 @@ MonoBehaviour:
   moveSpeed: 0.5
   damage: 1
   maxHP: 10
+  originSpeed: 0
+  isDead: 0
   isBoss: 0
 --- !u!58 &3545190233999651155
 CircleCollider2D:

@@ -90,7 +90,10 @@ public class SkillProxy : IProxy
         }
         enemyProxy.EnemyMove(true);
     }
-
+    public void Reset()
+    {
+        weaponLevel.Clear();
+    }
 }
 
 public class SelectSkills

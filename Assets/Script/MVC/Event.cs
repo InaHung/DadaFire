@@ -31,6 +31,7 @@ public class BossEvent
 {
     public const string ON_BOSS_DEAD = "BossEvent.ON_BOSS_DEAD";
     public const string ON_BOSS_APPEAR = "BossEvent.ON_BOSS_APPEAR";
+    public const string ON_FINAL_BOSS_DEAD = "BossEvent.ON_FINAL_BOSS_DEAD";
 }
 
 public class SkillEvent
