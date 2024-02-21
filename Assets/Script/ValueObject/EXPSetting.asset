@@ -93,4 +93,123 @@ MonoBehaviour:
     maxScore: 210
   - level: 40
     maxScore: 215
-  counts: 
+  - level: 41
+    maxScore: 220
+  - level: 42
+    maxScore: 225
+  - level: 43
+    maxScore: 230
+  - level: 44
+    maxScore: 235
+  - level: 45
+    maxScore: 240
+  - level: 46
+    maxScore: 245
+  - level: 47
+    maxScore: 250
+  - level: 48
+    maxScore: 255
+  - level: 49
+    maxScore: 260
+  - level: 50
+    maxScore: 265
+  - level: 51
+    maxScore: 270
+  - level: 52
+    maxScore: 275
+  - level: 53
+    maxScore: 280
+  - level: 54
+    maxScore: 285
+  - level: 55
+    maxScore: 290
+  - level: 56
+    maxScore: 295
+  - level: 57
+    maxScore: 300
+  - level: 58
+    maxScore: 305
+  - level: 59
+    maxScore: 310
+  - level: 60
+    maxScore: 315
+  - level: 61
+    maxScore: 320
+  - level: 62
+    maxScore: 325
+  - level: 63
+    maxScore: 330
+  - level: 64
+    maxScore: 335
+  - level: 65
+    maxScore: 340
+  - level: 66
+    maxScore: 345
+  - level: 67
+    maxScore: 350
+  - level: 68
+    maxScore: 355
+  - level: 69
+    maxScore: 360
+  - level: 70
+    maxScore: 365
+  - level: 71
+    maxScore: 370
+  - level: 72
+    maxScore: 375
+  - level: 73
+    maxScore: 380
+  - level: 74
+    maxScore: 385
+  - level: 75
+    maxScore: 390
+  - level: 76
+    maxScore: 395
+  - level: 77
+    maxScore: 400
+  - level: 78
+    maxScore: 405
+  - level: 79
+    maxScore: 410
+  - level: 80
+    maxScore: 415
+  - level: 81
+    maxScore: 420
+  - level: 82
+    maxScore: 425
+  - level: 83
+    maxScore: 430
+  - level: 84
+    maxScore: 435
+  - level: 85
+    maxScore: 440
+  - level: 86
+    maxScore: 445
+  - level: 87
+    maxScore: 450
+  - level: 88
+    maxScore: 455
+  - level: 89
+    maxScore: 460
+  - level: 90
+    maxScore: 465
+  - level: 91
+    maxScore: 470
+  - level: 92
+    maxScore: 475
+  - level: 93
+    maxScore: 480
+  - level: 94
+    maxScore: 485
+  - level: 95
+    maxScore: 490
+  - level: 96
+    maxScore: 495
+  - level: 97
+    maxScore: 500
+  - level: 98
+    maxScore: 505
+  - level: 99
+    maxScore: 510
+  - level: 100
+    maxScore: 515

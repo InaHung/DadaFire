@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossSpawnSettings:
   - enemyType: 3
-    countDownTime: 10
+    countDownTime: 60
   - enemyType: 4
-    countDownTime: 10
+    countDownTime: 60

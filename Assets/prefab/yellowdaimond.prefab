@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPool: {fileID: 0}
-  score: 2
+  score: 8
   daimondType: 2
   moveSpeed: 10
   eatMagnet: 0

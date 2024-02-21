@@ -10,7 +10,7 @@ public class EXPSetting : ScriptableObject
     public void SetDefaultLevels()
     {
         singleEXPSettings = new List<SingleEXPSetting>();
-        for (int i = 1; i < 41; i++)
+        for (int i = 1; i < 101; i++)
         {
             singleEXPSettings.Add(new SingleEXPSetting());
             singleEXPSettings[i - 1].level = i;
