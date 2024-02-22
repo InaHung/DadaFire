@@ -103,7 +103,7 @@ MonoBehaviour:
   enemyType: 1
   daimondType: 0
   moveSpeed: 0.5
-  damage: 1
+  damage: 2
   maxHP: 10
   originSpeed: 0
   isDead: 0

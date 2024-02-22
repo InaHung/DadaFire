@@ -103,8 +103,10 @@ MonoBehaviour:
   enemyType: 2
   daimondType: 1
   moveSpeed: 0.5
-  damage: 1
+  damage: 3
   maxHP: 10
+  originSpeed: 0
+  isDead: 0
   isBoss: 0
 --- !u!58 &2200334855380496445
 CircleCollider2D:

@@ -17,7 +17,8 @@ public class PlayerView : MonoBehaviour, IView
     private float originSpeed;
     private float addictionSpeed = 1;
     private Tween coolDownTween;
-   [Regist]
+    public VariableJoystick joystick;
+    [Regist]
     private PlayerMediator mediator;
 
 
@@ -35,17 +36,41 @@ public class PlayerView : MonoBehaviour, IView
 
     private void Update()
     {
-
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-
+        if(joystick.Horizontal < 1&& joystick.Horizontal>0.05)
+        {
+            movement.x = 1;
+            
+        }
+        if (joystick.Horizontal >- 1 && joystick.Horizontal <-0.05)
+        {
+            movement.x =-1;
+          
+        }
+        if (joystick.Horizontal > -0.05 && joystick.Horizontal < 0.05)
+        {
+            movement.x = 0;
+        }
+        if (joystick.Vertical < 1 && joystick.Vertical > 0.05)
+        {
+            movement.y = 1;
+            
+        }
+        if (joystick.Vertical > -1 && joystick.Vertical <-0.05)
+        {
+            movement.y = -1;
+           
+        }
+       if (joystick.Vertical > -0.05 && joystick.Vertical < 0.05)
+            {
+                movement.y = 0;
+            }
     }
+    
     private void FixedUpdate()
     {
         myRigidbody.MovePosition(myRigidbody.position + movement * moveSpeed * Time.fixedDeltaTime * addictionSpeed);
     }
-    
+
     public void IncreaseSpeed(float speed)
     {
         addictionSpeed = speed;
